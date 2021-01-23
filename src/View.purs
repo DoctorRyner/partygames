@@ -7,13 +7,17 @@ import Gimel.Attributes (className)
 import Gimel.Html (Html, div, style, text)
 import Style (stylesheet)
 import Types (Event, Model)
+-- AlephZero layer
+import AlephZero.Header(header)
+import AlephZero.Content(content)
+import AlephZero.Footer(footer)
 
 view :: Model -> Html Event
 view model = fold
     [ div [className "main"]
-        [ div [className "header"] []
-        , div [className "content"] []
-        , div [className "footer"] []
+        [ header model
+        , content model
+        , footer model
         ]
     , style [] [text $ stylesheet {}]
     ]
