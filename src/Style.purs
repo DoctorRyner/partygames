@@ -3,6 +3,7 @@ module Style where
 import Prelude
 
 import CSS (color, green)
+-- AlephZero layer
 import Style.AlephZero.Content (content)
 import Style.AlephZero.Footer (footer)
 import Style.AlephZero.Header (header, headerButton)
