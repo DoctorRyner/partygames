@@ -9,6 +9,24 @@ let additions =
         , repo         = "https://github.com/DoctorRyner/gimel"
         , version      = "v0.1-alpha"
         }
+    -- , gimel-http =
+    --     { dependencies =
+    --       [ "prelude"
+    --       , "aff"
+    --       , "affjax"
+    --       , "css"
+    --       , "console"
+    --       , "effect"
+    --       , "filterable"
+    --       , "js-timers"
+    --       , "ordered-collections"
+    --       , "react"
+    --       , "react-dom"
+    --       , "web-html"
+    --       ]
+    --     , repo         = "https://github.com/DoctorRyner/gimel-http"
+    --     , version      = "c366df711836568e9a090aea126991a3b010c8c2"
+    --     }
     , react-mui =
         { dependencies = [ "tscompat" ]
         , repo         = "https://github.com/doolse/purescript-react-mui"
