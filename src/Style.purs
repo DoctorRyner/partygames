@@ -3,10 +3,10 @@ module Style where
 import Prelude
 
 import CSS (color, green)
--- AlephZero layer
 import Style.AlephZero.Content (content)
 import Style.AlephZero.Footer (footer)
 import Style.AlephZero.Header (header, headerButton)
+import Style.Lobby (lobby)
 import Style.Main (main)
 import Style.Utils (cssToString, e)
 import Types (Theme)
@@ -21,3 +21,5 @@ stylesheet _ = cssToString do
 
     e ".content" content
     e ".footer" footer
+-- Components
+    e ".lobby" lobby
