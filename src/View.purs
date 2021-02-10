@@ -25,7 +25,7 @@ view model = fold
     , router
     ] where
         router = browserRouter [] $ singleton $ switch []
-            [ route [exact true, path "/"] 
+            [ route [exact true, path "/"]
                 [ div [className "main"]
                     [ header model
                     , content model

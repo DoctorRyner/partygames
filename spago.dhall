@@ -1,12 +1,12 @@
 { name = "my-project"
 , dependencies =
   [ "aff"
+  , "affjax"
   , "argonaut"
   , "console"
   , "css"
   , "effect"
   , "gimel"
-  , "gimel-http"
   , "psci-support"
   , "react"
   , "react-dom"

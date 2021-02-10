@@ -11,7 +11,10 @@ import Update (update)
 import View (view)
 
 init :: Model
-init = {counter: 0}
+init =
+    { counter: 0
+    , httpTest: ""
+    }
 
 main :: Effect Unit
 main = run {init, view, update, subs}

@@ -1,7 +1,10 @@
 module Types where
 
-data Event = Inc | Dec
+data Event
+    = Inc
+    | Dec
+    | HttpTest
 
-type Model = {counter :: Int}
+type Model = {counter :: Int, httpTest :: String}
 
 type Theme = {}

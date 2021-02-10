@@ -1,7 +1,6 @@
 {
   "name": "partygames",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/DoctorRyner/partygames",
   "author": "ydrExty <liaroffear@mail.ru>",
   "license": "MIT",
